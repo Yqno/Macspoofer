@@ -13,9 +13,12 @@ Next, authorize the script to be executed by executing the command ```chmod +x m
 To run the program, enter the following command:
 
 On Windows: ```python macchanger.py [interface] -r/-m [MAC address]```
+
 On Linux: ```sudo python3 macchanger.py [interface] -r/-m [MAC address]```
 
-Replace [interface] with the name of your network interface. Additionally, either utilize the -r flag to generate a random MAC address or the -m flag followed by a MAC address to define a specific one.
+Replace [interface] with the name of your network interface you can find your interface on Windows with ``ìpconfig``` and on Linux ``ìfconfig```. 
+
+Additionally, either utilize the -r flag to generate a random MAC address or the -m flag followed by a MAC address to define a specific one.
 
 Upon successful execution, the script will exhibit your existing permanent MAC address in addition to the newly designated MAC address.
 
