@@ -1,4 +1,4 @@
-# Macchanger
+# Macspoofer
 a Python Script that changes your MAC Address on Windows and Linux
 
 
@@ -8,15 +8,11 @@ Firstly, obtain a copy of the script from the Github repository by either clonin
 
 Then, launch a terminal window and navigate to the directory where the script is located.
 
-Next, authorize the script to be executed by executing the command ```chmod +x macchanger.py```
-
 To run the program, enter the following command:
 
-On Windows: ```python macchanger.py [interface] -r/-m [MAC address]```
+On Windows: ```python macspoofer.py [interface] -r/-m [MAC address]```
 
-
-
-On Linux: ```sudo python3 macchanger.py [interface] -r/-m [MAC address]```
+On Linux: ```sudo python3 macspoofer.py [interface] -r/-m [MAC address]```
 
 Replace [interface] with the name of your network interface you can find your interface on Windows with ```ìpconfig``` 
 and on Linux ```ìfconfig```. 
