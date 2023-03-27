@@ -39,7 +39,7 @@ def CHANGE_MAC_ADRESS(iface, NEW_MAC_ADRESS):
 
 if __name__ == "__main__":
     import argparse 
-    PARSER = argparse.ArgumentParser(description="Python Macchanger")
+    PARSER = argparse.ArgumentParser(description="Python Macspoofer Coded by Yqno")
     PARSER.add_argument("interface", help="The network interface name")
     PARSER.add_argument("-r", "--random", action="store_true", help="Generate a random MAC address")
     PARSER.add_argument("-m", "--mac", help="The new MAC address you want to change to")
